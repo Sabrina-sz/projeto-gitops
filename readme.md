@@ -102,7 +102,7 @@ kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.pas
 
 ---
 
-### Criação do App no ArgoCD
+### 4.Criação do App no ArgoCD
 
 - Vá em `applications`
     Em seguida clique em `+ new app`
@@ -154,7 +154,7 @@ kubectl get svc
 
 ---
 
-## 6. Adicionando mais replicas (extra)
+### 6. Adicionando mais replicas (extra)
 
 Acesse o arquivo online-boutique.yaml no editor de texto nano
 
@@ -190,7 +190,10 @@ Comando para fazer o port-forward, liberando a porta para aplicação rodar.
 kubectl port-forward svc/frontend 8081:80
 ```
 
+
 Após executar o comando a porta ja está liberada e podemos acessar a aplicção no navegador.
+
+
 ![](img/7.PNG)
 
 
