@@ -1,4 +1,4 @@
-# 🚀 GitOps com ArgoCD e Kubernetes - Online Boutique
+# 🚀 GitOps com ArgoCD e Kubernetes 
 
 Este projeto é uma implementação prática de GitOps utilizando ArgoCD para realizar o deploy automatizado da aplicação, com um conjunto de microserviços, rodando em um cluster Kubernetes local com **Rancher Desktop**.
 
