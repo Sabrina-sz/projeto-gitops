@@ -111,7 +111,7 @@ kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.pas
 
 ![](img/1.PNG)
 
-***Configurção da aplicação***
+***Configuração da aplicação***
 
 - Nome: app-online
 
