@@ -13,20 +13,20 @@ Este projeto é uma implementação prática de GitOps utilizando ArgoCD para re
 
 ## Requisitos
 
-- [x] Git e GitHub
-- [x] Docker instalado
-- [x] Rancher Desktop com Kubernetes habilitado
-- [x] Kubectl configurado (`kubectl get nodes`)
-- [x] ArgoCD instalado no cluster
+-  Git e GitHub
+-  Docker instalado
+-  Rancher Desktop com Kubernetes habilitado
+-  Kubectl configurado (`kubectl get nodes`)
+-  ArgoCD instalado no cluster
 
 ---
 
 ## Estrutura do Repositório
 
-microservices-demo/
-├── gitops-microservices/
-│   └── k8s/
-│       └── online-boutique.yaml
+> microservices-demo/
+  > gitops-microservices/
+    > k8s/
+      > online-boutique.yaml
 
 ---
 
@@ -114,8 +114,8 @@ kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.pas
 
 - Nome: app-online
 
-Cole seu repositório 
-- Repositório Git: https://github.com/<seu-usuario>/microservices-demo.git
+- Cole seu repositório 
+  - Repositório Git: https://github.com/<seu-usuario>/microservices-demo.git
 
 - Path: gitops-microservices/k8s
 
