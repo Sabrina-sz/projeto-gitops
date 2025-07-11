@@ -7,7 +7,6 @@ Este projeto é uma implementação prática de GitOps utilizando ArgoCD para re
 - Implantar uma aplicação real composta por múltiplos microserviços no Kubernetes.
 - Controlar o deploy e a configuração da aplicação por meio do Git (GitOps).
 - Utilizar o ArgoCD para gerenciar o ciclo de vida da aplicação.
-- (Opcional) Realizar customizações no manifesto da aplicação.
 
 ---
 
@@ -57,6 +56,8 @@ Este projeto é uma implementação prática de GitOps utilizando ArgoCD para re
 ---
 
 ## Etapas Realizadas
+
+
 
 ### 1. Fork e Organização do Repositório
 
@@ -154,7 +155,7 @@ kubectl get svc
 
 ---
 
-### 6. Adicionando mais replicas (extra)
+### 6. Adicionando mais replicas (EXTRA)
 
 Acesse o arquivo online-boutique.yaml no editor de texto nano
 
